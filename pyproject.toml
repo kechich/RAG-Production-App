@@ -3,4 +3,14 @@ name = "ragproductionapp"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.135.2",
+    "inngest>=0.5.18",
+    "llama-index-core>=0.14.18",
+    "llama-index-readers-file>=0.6.0",
+    "openai>=2.29.0",
+    "python-dotenv>=1.2.2",
+    "qdrant-client>=1.17.1",
+    "streamlit>=1.55.0",
+    "uvicorn>=0.42.0",
+]
